@@ -64,6 +64,7 @@ command line or MobaXterm on Windows).
 #.  Your key is now generated and written to the location you specified, notice that there's two files, a private key without an
     extension (e.g. ``id_rsa``) and public key with a ``.pub`` extension (e.g. ``id_rsa.pub``)
 #. When registering for a SAFE account, enter the content of your public key file (.pub extension) when asked.
+#. You might have to add your SSH key to the ssh-agent: ``ssh-add ~/.ssh/id_rsa``.
 
 An example of the output can be seen below: ::
 
